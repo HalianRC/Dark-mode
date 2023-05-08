@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 32px;
+}
+  
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+p{
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.button-toggle{
+  width:  max-content;
+  padding: 0px 32px;
+  border-radius: 4px;
+  height: 38px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+
+
